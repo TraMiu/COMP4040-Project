@@ -1,0 +1,9 @@
+opus-mt-vi-en
+opus-mt-en-vi
+venv
+model-ba-en
+model-en-ba
+tokenizer-ba-en
+tokenizer-en-ba
+results
+wandb

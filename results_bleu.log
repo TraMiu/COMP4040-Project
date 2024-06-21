@@ -1,0 +1,502 @@
+====================================================================
+NIV-Bible (New International Version Bible) and PhoMT
+27887 3099 1000
+18719
+46606
+BLEU:  15.25
+CHRF: 30.75
+TER: 65.46
+Prediction 1: You will be left, but you will not do what is right.
+Reference 1: I release you, but can do no more.
+
+Prediction 2: You have become a strong man, like a man who is like a child.
+Reference 2: You have as much right to be a knight as any man.
+
+Prediction 3: No, it's your mother’s daughter.
+Reference 3: No. Leave me alone.
+
+Prediction 4: You are to be able to be put to the fire.
+Reference 4: I'm here to help!
+
+Prediction 5: All your thoughts are going to do, even if you do whatever you want to do.
+Reference 5: All you wanna do is pee.
+
+Prediction 6: and all these things were under the inner area of Samaria and Egypt that had been destroyed and had gone out.
+Reference 6: And these platforms were certainly very helpful to activists in Tunisia and Egypt this past spring and beyond.
+
+Prediction 7: He is the mother of the righteous, and the father of the people of the land of the poor.
+Reference 7: He's an architect, and Charlie is deeply concerned about global climate change.
+
+Prediction 8: Then they took the young women and put them on it.
+Reference 8: She took my little girl.
+
+Prediction 9: No, no, no, no, no, no, no, no.
+Reference 9: No, please, it's not my freedom I seek.
+
+Prediction 10: How long will you go with us?
+Reference 10: After all, who am I?
+
+Prediction 11: You know it, Megan.
+Reference 11: - I know, Megan.
+
+Prediction 12: You have made all your bows and your father’s bow.
+Reference 12: Get all the weapons and ammo you can.
+
+Prediction 13: The sons of your wife will be put to death.
+Reference 13: My daughter will get over it.
+
+Prediction 14: In the land of the land of the land of Angela Merkel, with the king of Puin, with more than ten cubits wide.
+Reference 14: - Chancellor Angela Merkel, during a news conference with President Putin.
+
+Prediction 15: and Hosai, Radah, the commander of the army of Aliph Jawbone, you know that you were a widow.
+Reference 15: And Hosain Rahman, the CEO of Aliph Jawbone, you know, really understands that you need a different structure.
+
+Prediction 16: “ ‘This is what the LORD’s command has spoken: “ ‘The plague is to be cut off, and the plague is to be cut off.’ ”
+Reference 16: The court order to seize organization property owned by Jehovah's Witnesses adds insult to injury.
+
+Prediction 17: You have seen him.
+Reference 17: You've already found him.
+
+Prediction 18: “ ‘When no one touches a yoke, they will not listen to them.
+Reference 18: Once there's no tumor to attack, there's nothing for the antibodies to get confused about.
+
+Prediction 19: Come, man, let us live here until this is enough.
+Reference 19: - Okay, well, we are until this is all over.
+
+Prediction 20: You will come to meet the blind.
+Reference 20: I'll go check on Grandpa.
+
+
+
+======================================================================================
+KJV-Bible (King James Version Bible) and PhoMT
+21801 2423 1000
+18719
+Dataset({
+    features: ['English', 'Vietnamese', 'input_ids', 'attention_mask', 'labels', 'Bahnar', '__index_level_0__'],
+    num_rows: 40520
+})
+40520
+{'loss': 0.5365, 'grad_norm': 0.34862270951271057, 'learning_rate': 1.9210734017363852e-05, 'epoch': 0.39}
+{'loss': 0.4334, 'grad_norm': 0.37637990713119507, 'learning_rate': 1.8421468034727706e-05, 'epoch': 0.79}
+{'eval_loss': 0.40259668231010437, 'eval_runtime': 9.9366, 'eval_samples_per_second': 243.847, 'eval_steps_per_second': 7.649, 'epoch': 1.0}
+{'loss': 0.3987, 'grad_norm': 0.39158108830451965, 'learning_rate': 1.7632202052091556e-05, 'epoch': 1.18}
+{'loss': 0.3752, 'grad_norm': 0.37865373492240906, 'learning_rate': 1.684293606945541e-05, 'epoch': 1.58}
+{'loss': 0.3663, 'grad_norm': 0.39996346831321716, 'learning_rate': 1.605367008681926e-05, 'epoch': 1.97}
+{'eval_loss': 0.36397111415863037, 'eval_runtime': 9.9333, 'eval_samples_per_second': 243.926, 'eval_steps_per_second': 7.651, 'epoch': 2.0}
+{'loss': 0.3484, 'grad_norm': 0.3717134892940521, 'learning_rate': 1.526440410418311e-05, 'epoch': 2.37}
+{'loss': 0.342, 'grad_norm': 0.37322917580604553, 'learning_rate': 1.4475138121546963e-05, 'epoch': 2.76}
+{'eval_loss': 0.33895251154899597, 'eval_runtime': 9.9527, 'eval_samples_per_second': 243.452, 'eval_steps_per_second': 7.636, 'epoch': 3.0}
+{'loss': 0.3294, 'grad_norm': 0.5261486768722534, 'learning_rate': 1.3685872138910814e-05, 'epoch': 3.16}
+{'loss': 0.3229, 'grad_norm': 0.3723871409893036, 'learning_rate': 1.2896606156274664e-05, 'epoch': 3.55}
+{'loss': 0.3141, 'grad_norm': 0.46330857276916504, 'learning_rate': 1.2107340173638518e-05, 'epoch': 3.95}
+{'eval_loss': 0.3227848410606384, 'eval_runtime': 9.9376, 'eval_samples_per_second': 243.823, 'eval_steps_per_second': 7.648, 'epoch': 4.0}
+{'loss': 0.3081, 'grad_norm': 0.3750886023044586, 'learning_rate': 1.1318074191002368e-05, 'epoch': 4.34}
+{'loss': 0.3028, 'grad_norm': 0.4191167652606964, 'learning_rate': 1.052880820836622e-05, 'epoch': 4.74}
+{'eval_loss': 0.31113314628601074, 'eval_runtime': 9.9596, 'eval_samples_per_second': 243.284, 'eval_steps_per_second': 7.631, 'epoch': 5.0}
+{'loss': 0.2962, 'grad_norm': 0.33381417393684387, 'learning_rate': 9.739542225730073e-06, 'epoch': 5.13}
+{'loss': 0.2907, 'grad_norm': 0.37245404720306396, 'learning_rate': 8.950276243093923e-06, 'epoch': 5.52}
+{'loss': 0.2912, 'grad_norm': 0.4386730194091797, 'learning_rate': 8.161010260457775e-06, 'epoch': 5.92}
+{'eval_loss': 0.30331549048423767, 'eval_runtime': 9.9602, 'eval_samples_per_second': 243.269, 'eval_steps_per_second': 7.63, 'epoch': 6.0}
+{'loss': 0.2834, 'grad_norm': 0.34878766536712646, 'learning_rate': 7.371744277821627e-06, 'epoch': 6.31}
+{'loss': 0.28, 'grad_norm': 0.40931302309036255, 'learning_rate': 6.582478295185478e-06, 'epoch': 6.71}
+{'eval_loss': 0.2970901429653168, 'eval_runtime': 9.9545, 'eval_samples_per_second': 243.407, 'eval_steps_per_second': 7.635, 'epoch': 7.0}
+{'loss': 0.2816, 'grad_norm': 0.3550594747066498, 'learning_rate': 5.79321231254933e-06, 'epoch': 7.1}
+{'loss': 0.2766, 'grad_norm': 0.3918273448944092, 'learning_rate': 5.003946329913181e-06, 'epoch': 7.5}
+{'loss': 0.2749, 'grad_norm': 0.36295148730278015, 'learning_rate': 4.214680347277033e-06, 'epoch': 7.89}
+{'eval_loss': 0.2933668792247772, 'eval_runtime': 9.9511, 'eval_samples_per_second': 243.492, 'eval_steps_per_second': 7.637, 'epoch': 8.0}
+{'loss': 0.2708, 'grad_norm': 0.3303939700126648, 'learning_rate': 3.4254143646408845e-06, 'epoch': 8.29}
+{'loss': 0.2742, 'grad_norm': 0.37311097979545593, 'learning_rate': 2.6361483820047358e-06, 'epoch': 8.68}
+{'eval_loss': 0.2911684513092041, 'eval_runtime': 9.9512, 'eval_samples_per_second': 243.488, 'eval_steps_per_second': 7.637, 'epoch': 9.0}
+{'loss': 0.2689, 'grad_norm': 0.3539752960205078, 'learning_rate': 1.8468823993685875e-06, 'epoch': 9.08}
+{'loss': 0.267, 'grad_norm': 0.4146616458892822, 'learning_rate': 1.0576164167324388e-06, 'epoch': 9.47}
+{'loss': 0.2702, 'grad_norm': 0.40371087193489075, 'learning_rate': 2.6835043409629047e-07, 'epoch': 9.87}
+{'eval_loss': 0.2902277112007141, 'eval_runtime': 9.9531, 'eval_samples_per_second': 243.441, 'eval_steps_per_second': 7.636, 'epoch': 10.0}
+{'train_runtime': 5417.5211, 'train_samples_per_second': 74.794, 'train_steps_per_second': 2.339, 'train_loss': 0.3194267857046511, 'epoch': 10.0}
+[['I release you, but can do no more.\n'], ['You have as much right to be a knight as any man.\n']]
+['Thou shalt not take thee, but it shall not be able to do it.', "Thou art a strong man as a man's heart."]
+BLEU:  27.05
+CHRF: 24.41
+TER: 80.01
+Prediction 1: Thou shalt not take thee, but it shall not be able to do it.
+Reference 1: I release you, but can do no more.
+
+Prediction 2: Thou art a strong man as a man's heart.
+Reference 2: You have as much right to be a knight as any man.
+
+Prediction 3: It's not. Levi's mother's mother's brother.
+Reference 3: No. Leave me alone.
+
+Prediction 4: I'm going to get up to the top of your head!
+Reference 4: I'm here to help!
+
+Prediction 5: This is the thing that thou mayest make you to make a end of it. It is a thing that thou hast made you to make a thing that is able to be able to be able to be able to be able to do it.
+Reference 5: All you wanna do is pee.
+
+Prediction 6: And all the things that are written in the city, and all the things that are written in the midst of the area of the city, and the Egypt, in the time of winter, and in the bottom of the ground, and in the bottom of the ground.
+Reference 6: And these platforms were certainly very helpful to activists in Tunisia and Egypt this past spring and beyond.
+
+Prediction 7: He took the second mother's eyes, and the poor, and the poor, and the poor, and the poor, and the poor, and the poor, and the poor, and the poor, and the poor, and the poor.
+Reference 7: He's an architect, and Charlie is deeply concerned about global climate change.
+
+Prediction 8: It's full of your daughter's mother's mother's mother's mother's mother's mother's mother's mother.
+Reference 8: She took my little girl.
+
+Prediction 9: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, not, not, not, no, not, not.
+Reference 9: No, please, it's not my freedom I seek.
+
+Prediction 10: Water, you're going to go?
+Reference 10: After all, who am I?
+
+Prediction 11: I know it, Megan.
+Reference 11: - I know, Megan.
+
+Prediction 12: Take all your wings and your belly, and take you away.
+Reference 12: Get all the weapons and ammo you can.
+
+Prediction 13: Don't have a wife to know what it's wrong.
+Reference 13: My daughter will get over it.
+
+Prediction 14: For the land of the land of Angela Merkel, with the "Bok king of Puin's covenant more more more than a thousand indah.
+Reference 14: - Chancellor Angela Merkel, during a news conference with President Putin.
+
+Prediction 15: And Hosain Rahah, which is written by Aliph Jawbone, thou hast know, which thou hast given me to make an atonement for it.
+Reference 15: And Hosain Rahman, the CEO of Aliph Jawbone, you know, really understands that you need a different structure.
+
+Prediction 16: The word of the word that thou mayest cut off the weight of the sin offering, which is on the north side of the Amorites, which is the purpose of the work of the world, which is going to go to the plague of the plague.
+Reference 16: The court order to seize organization property owned by Jehovah's Witnesses adds insult to injury.
+
+Prediction 17: Thou hast seen him's swim.
+Reference 17: You've already found him.
+
+Prediction 18: When when it was not able to go down, it's not so much to be able to be able to go away.
+Reference 18: Once there's no tumor to attack, there's nothing for the antibodies to get confused about.
+
+Prediction 19: Huay friend, and lei, who is still in the end of this world.
+Reference 19: - Okay, well, we are until this is all over.
+
+Prediction 20: You will come to meet the "Bok."
+Reference 20: I'll go check on Grandpa.
+
+
+=========================================================================
+NKJV Bible and PhomT
+27905 3101 1000
+18719
+Dataset({
+    features: ['English', 'Vietnamese', 'input_ids', 'attention_mask', 'labels', 'Bahnar', '__index_level_0__'],
+    num_rows: 46624
+})
+46624
+{'loss': 0.6584, 'grad_norm': 0.46714258193969727, 'learning_rate': 1.931365820178449e-05, 'epoch': 0.34}
+{'loss': 0.5284, 'grad_norm': 0.43698784708976746, 'learning_rate': 1.8627316403568977e-05, 'epoch': 0.69}
+{'eval_loss': 0.5426796078681946, 'eval_runtime': 12.762, 'eval_samples_per_second': 242.987, 'eval_steps_per_second': 7.601, 'epoch': 1.0}
+{'loss': 0.497, 'grad_norm': 0.42620158195495605, 'learning_rate': 1.7940974605353467e-05, 'epoch': 1.03}
+{'loss': 0.4706, 'grad_norm': 0.37402814626693726, 'learning_rate': 1.7254632807137956e-05, 'epoch': 1.37}
+{'loss': 0.4492, 'grad_norm': 0.36975589394569397, 'learning_rate': 1.6568291008922446e-05, 'epoch': 1.72}
+{'eval_loss': 0.48315441608428955, 'eval_runtime': 12.7896, 'eval_samples_per_second': 242.462, 'eval_steps_per_second': 7.584, 'epoch': 2.0}
+{'loss': 0.4364, 'grad_norm': 0.4056161046028137, 'learning_rate': 1.5881949210706932e-05, 'epoch': 2.06}
+{'loss': 0.4198, 'grad_norm': 0.35773447155952454, 'learning_rate': 1.5195607412491421e-05, 'epoch': 2.4}
+{'loss': 0.409, 'grad_norm': 0.41335782408714294, 'learning_rate': 1.4509265614275911e-05, 'epoch': 2.75}
+{'eval_loss': 0.44730573892593384, 'eval_runtime': 12.7701, 'eval_samples_per_second': 242.833, 'eval_steps_per_second': 7.596, 'epoch': 3.0}
+{'loss': 0.3991, 'grad_norm': 0.3973608911037445, 'learning_rate': 1.3822923816060399e-05, 'epoch': 3.09}
+{'loss': 0.3859, 'grad_norm': 0.417233407497406, 'learning_rate': 1.3136582017844888e-05, 'epoch': 3.43}
+{'loss': 0.3811, 'grad_norm': 0.43077608942985535, 'learning_rate': 1.2450240219629378e-05, 'epoch': 3.77}
+{'eval_loss': 0.4241984784603119, 'eval_runtime': 12.7734, 'eval_samples_per_second': 242.771, 'eval_steps_per_second': 7.594, 'epoch': 4.0}
+{'loss': 0.3746, 'grad_norm': 0.3959749937057495, 'learning_rate': 1.1763898421413864e-05, 'epoch': 4.12}
+{'loss': 0.3671, 'grad_norm': 0.42388978600502014, 'learning_rate': 1.1077556623198353e-05, 'epoch': 4.46}
+{'loss': 0.3619, 'grad_norm': 0.4009006917476654, 'learning_rate': 1.0391214824982843e-05, 'epoch': 4.8}
+{'eval_loss': 0.40861809253692627, 'eval_runtime': 12.7876, 'eval_samples_per_second': 242.501, 'eval_steps_per_second': 7.585, 'epoch': 5.0}
+{'loss': 0.354, 'grad_norm': 0.41423630714416504, 'learning_rate': 9.70487302676733e-06, 'epoch': 5.15}
+{'loss': 0.3505, 'grad_norm': 0.39175552129745483, 'learning_rate': 9.01853122855182e-06, 'epoch': 5.49}
+{'loss': 0.3494, 'grad_norm': 0.45589447021484375, 'learning_rate': 8.332189430336308e-06, 'epoch': 5.83}
+{'eval_loss': 0.3978973925113678, 'eval_runtime': 12.8215, 'eval_samples_per_second': 241.86, 'eval_steps_per_second': 7.565, 'epoch': 6.0}
+{'loss': 0.3438, 'grad_norm': 0.34983938932418823, 'learning_rate': 7.645847632120796e-06, 'epoch': 6.18}
+{'loss': 0.3378, 'grad_norm': 0.39480534195899963, 'learning_rate': 6.9595058339052854e-06, 'epoch': 6.52}
+{'loss': 0.3393, 'grad_norm': 0.4259960949420929, 'learning_rate': 6.273164035689774e-06, 'epoch': 6.86}
+{'eval_loss': 0.39085835218429565, 'eval_runtime': 12.8081, 'eval_samples_per_second': 242.112, 'eval_steps_per_second': 7.573, 'epoch': 7.0}
+{'loss': 0.3325, 'grad_norm': 0.4667578339576721, 'learning_rate': 5.586822237474263e-06, 'epoch': 7.21}
+{'loss': 0.3312, 'grad_norm': 0.3838222920894623, 'learning_rate': 4.900480439258751e-06, 'epoch': 7.55}
+{'loss': 0.3301, 'grad_norm': 0.40826737880706787, 'learning_rate': 4.21413864104324e-06, 'epoch': 7.89}
+{'eval_loss': 0.385324090719223, 'eval_runtime': 12.8115, 'eval_samples_per_second': 242.049, 'eval_steps_per_second': 7.571, 'epoch': 8.0}
+{'loss': 0.3296, 'grad_norm': 0.41556650400161743, 'learning_rate': 3.5277968428277288e-06, 'epoch': 8.24}
+{'loss': 0.3252, 'grad_norm': 0.40883201360702515, 'learning_rate': 2.841455044612217e-06, 'epoch': 8.58}
+{'loss': 0.3255, 'grad_norm': 0.4168364405632019, 'learning_rate': 2.1551132463967057e-06, 'epoch': 8.92}
+{'eval_loss': 0.38314053416252136, 'eval_runtime': 12.7929, 'eval_samples_per_second': 242.399, 'eval_steps_per_second': 7.582, 'epoch': 9.0}
+{'loss': 0.3212, 'grad_norm': 0.4563438892364502, 'learning_rate': 1.4687714481811943e-06, 'epoch': 9.27}
+{'loss': 0.3231, 'grad_norm': 0.39099985361099243, 'learning_rate': 7.824296499656829e-07, 'epoch': 9.61}
+{'loss': 0.3243, 'grad_norm': 0.4214176535606384, 'learning_rate': 9.608785175017159e-08, 'epoch': 9.95}
+{'eval_loss': 0.38207563757896423, 'eval_runtime': 12.7868, 'eval_samples_per_second': 242.515, 'eval_steps_per_second': 7.586, 'epoch': 10.0}
+{'train_runtime': 6350.6856, 'train_samples_per_second': 73.416, 'train_steps_per_second': 2.294, 'train_loss': 0.3843982421623654, 'epoch': 10.0}
+[['I release you, but can do no more.\n'], ['You have as much right to be a knight as any man.\n']]
+['“You shall not forsake you, nor shall you do any more than you.', 'You have many mighty men like a man who is born.']
+BLEU:  12.6
+CHRF: 33.54
+TER: 80.01
+Prediction 1: “You shall not forsake you, nor shall you do any more than you.
+Reference 1: I release you, but can do no more.
+
+Prediction 2: You have many mighty men like a man who is born.
+Reference 2: You have as much right to be a knight as any man.
+
+Prediction 3: No, you are old.
+Reference 3: No. Leave me alone.
+
+Prediction 4: “You shall be able to build.
+Reference 4: I'm here to help!
+
+Prediction 5: For all your heart are your heart, And your righteousness is your heart.
+Reference 5: All you wanna do is pee.
+
+Prediction 6: And all the days of this city were in the midst of the city, and the land of Egypt was desolate, and there was a cloud.
+Reference 6: And these platforms were certainly very helpful to activists in Tunisia and Egypt this past spring and beyond.
+
+Prediction 7: He is a faithful man, And his father’s father’s right hand.
+Reference 7: He's an architect, and Charlie is deeply concerned about global climate change.
+
+Prediction 8: And it was, when you took the young woman, that you may be holy.
+Reference 8: She took my little girl.
+
+Prediction 9: No, not, not, not, not, not, not, not.
+Reference 9: No, please, it's not my freedom I seek.
+
+Prediction 10: How long will you take away from us?
+Reference 10: After all, who am I?
+
+Prediction 11: I know you know, Megan.
+Reference 11: - I know, Megan.
+
+Prediction 12: You shall take all your glory and your father’s ear.
+Reference 12: Get all the weapons and ammo you can.
+
+Prediction 13: The sons of your daughters shall be cut off.
+Reference 13: My daughter will get over it.
+
+Prediction 14: And the land of the land of the land of Angela Merkel, with the king of Puin; and there was a great glory in the morning.
+Reference 14: - Chancellor Angela Merkel, during a news conference with President Putin.
+
+Prediction 15: And Hosain Rahah, the captain of the hand of Aliph Jawbone, you know that you were able to make the blood of the king’s mother’s head.
+Reference 15: And Hosain Rahman, the CEO of Aliph Jawbone, you know, really understands that you need a different structure.
+
+Prediction 16: And it shall be, when the plague is on the east side of the plague, that it may be cut off from the spoil of the grain offering.
+Reference 16: The court order to seize organization property owned by Jehovah's Witnesses adds insult to injury.
+
+Prediction 17: You have seen him, and you have seen him.
+Reference 17: You've already found him.
+
+Prediction 18: And when there is no blemish, there is no one of them.
+Reference 18: Once there's no tumor to attack, there's nothing for the antibodies to get confused about.
+
+Prediction 19: Now it happened, that we may dwell in this place until the end of this matter.
+Reference 19: - Okay, well, we are until this is all over.
+
+Prediction 20: You shall come with your eyes and see your God.
+Reference 20: I'll go check on Grandpa.
+
+
+
+================================================
+Customing Marian with KJV Bible and PhoMT
+{'loss': 0.3081, 'grad_norm': 0.3750886023044586, 'learning_rate': 1.1318074191002368e-05, 'epoch': 4.34}
+{'loss': 0.3028, 'grad_norm': 0.4191167652606964, 'learning_rate': 1.052880820836622e-05, 'epoch': 4.74}
+{'eval_loss': 0.31113314628601074, 'eval_runtime': 9.9563, 'eval_samples_per_second': 243.362, 'eval_steps_per_second': 7.633, 'epoch': 5.0}
+{'loss': 0.2962, 'grad_norm': 0.33381417393684387, 'learning_rate': 9.739542225730073e-06, 'epoch': 5.13}
+{'loss': 0.2907, 'grad_norm': 0.37245404720306396, 'learning_rate': 8.950276243093923e-06, 'epoch': 5.52}
+{'loss': 0.2912, 'grad_norm': 0.4386730194091797, 'learning_rate': 8.161010260457775e-06, 'epoch': 5.92}
+{'eval_loss': 0.30331549048423767, 'eval_runtime': 9.9444, 'eval_samples_per_second': 243.655, 'eval_steps_per_second': 7.643, 'epoch': 6.0}
+{'loss': 0.2834, 'grad_norm': 0.34878766536712646, 'learning_rate': 7.371744277821627e-06, 'epoch': 6.31}
+{'loss': 0.28, 'grad_norm': 0.40931302309036255, 'learning_rate': 6.582478295185478e-06, 'epoch': 6.71}
+{'eval_loss': 0.2970901429653168, 'eval_runtime': 9.9482, 'eval_samples_per_second': 243.563, 'eval_steps_per_second': 7.64, 'epoch': 7.0}
+{'loss': 0.2816, 'grad_norm': 0.3550594747066498, 'learning_rate': 5.79321231254933e-06, 'epoch': 7.1}
+{'loss': 0.2766, 'grad_norm': 0.3918273448944092, 'learning_rate': 5.003946329913181e-06, 'epoch': 7.5}
+{'loss': 0.2749, 'grad_norm': 0.36295148730278015, 'learning_rate': 4.214680347277033e-06, 'epoch': 7.89}
+{'eval_loss': 0.2933668792247772, 'eval_runtime': 9.9372, 'eval_samples_per_second': 243.832, 'eval_steps_per_second': 7.648, 'epoch': 8.0}
+{'loss': 0.2708, 'grad_norm': 0.3303939700126648, 'learning_rate': 3.4254143646408845e-06, 'epoch': 8.29}
+{'loss': 0.2742, 'grad_norm': 0.37311097979545593, 'learning_rate': 2.6361483820047358e-06, 'epoch': 8.68}
+{'eval_loss': 0.2911684513092041, 'eval_runtime': 9.9399, 'eval_samples_per_second': 243.765, 'eval_steps_per_second': 7.646, 'epoch': 9.0}
+{'loss': 0.2689, 'grad_norm': 0.3539752960205078, 'learning_rate': 1.8468823993685875e-06, 'epoch': 9.08}
+{'loss': 0.267, 'grad_norm': 0.4146616458892822, 'learning_rate': 1.0576164167324388e-06, 'epoch': 9.47}
+{'loss': 0.2702, 'grad_norm': 0.40371087193489075, 'learning_rate': 2.6835043409629047e-07, 'epoch': 9.87}
+{'eval_loss': 0.2902277112007141, 'eval_runtime': 9.9668, 'eval_samples_per_second': 243.108, 'eval_steps_per_second': 7.625, 'epoch': 10.0}
+{'train_runtime': 5426.2333, 'train_samples_per_second': 74.674, 'train_steps_per_second': 2.335, 'train_loss': 0.3194267857046511, 'epoch': 10.0}
+[['I release you, but can do no more.\n'], ['You have as much right to be a knight as any man.\n']]
+['- do by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by', '- did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do did do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do']
+BLEU:  0.1
+CHRF: 0.88
+TER: 3694.81
+Prediction 1: - do by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 1: I release you, but can do no more.
+
+Prediction 2: - did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do did do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do
+Reference 2: You have as much right to be a knight as any man.
+
+Prediction 3: - do bycecececececececececececececececececececececececececececececececececececececececececececececececececececececececececececececececececececececececececece by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 3: No. Leave me alone.
+
+Prediction 4: - do the do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do
+Reference 4: I'm here to help!
+
+Prediction 5: - do by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 5: All you wanna do is pee.
+
+Prediction 6: - do by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 6: And these platforms were certainly very helpful to activists in Tunisia and Egypt this past spring and beyond.
+
+Prediction 7: - did by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 7: He's an architect, and Charlie is deeply concerned about global climate change.
+
+Prediction 8: - did by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 8: She took my little girl.
+
+Prediction 9: - do by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 9: No, please, it's not my freedom I seek.
+
+Prediction 10: - didcececececececececece by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did did do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do do
+Reference 10: After all, who am I?
+
+Prediction 11: - by by by bycececececececececececececececececececececececececececececececececececececececececececececececececece by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 11: - I know, Megan.
+
+Prediction 12: Docecececece by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 12: Get all the weapons and ammo you can.
+
+Prediction 13: - by bycececece by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 13: My daughter will get over it.
+
+Prediction 14: - by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 14: - Chancellor Angela Merkel, during a news conference with President Putin.
+
+Prediction 15: - by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by on by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 15: And Hosain Rahman, the CEO of Aliph Jawbone, you know, really understands that you need a different structure.
+
+Prediction 16: - did by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 16: The court order to seize organization property owned by Jehovah's Witnesses adds insult to injury.
+
+Prediction 17: - did did did did did did did did did by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 17: You've already found him.
+
+Prediction 18: Do by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 18: Once there's no tumor to attack, there's nothing for the antibodies to get confused about.
+
+Prediction 19: - did did by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by
+Reference 19: - Okay, well, we are until this is all over.
+
+Prediction 20: - didcececececececececececececececececece by by by by by by by by by by by by by by by by by by by on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by by on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on on
+Reference 20: I'll go check on Grandpa.
+
+
+
+===========================================================
+King James Version Bible and PhoMT dataset for Eng-Bah direction
+21801 2423 1000
+18719
+Dataset({
+    features: ['English', 'Vietnamese', 'input_ids', 'attention_mask', 'labels', 'Bahnar', '__index_level_0__'],
+    num_rows: 40520
+})
+40520
+{'loss': 0.646, 'grad_norm': 0.4273596704006195, 'learning_rate': 1.9210734017363852e-05, 'epoch': 0.39}
+{'loss': 0.4194, 'grad_norm': 0.5482346415519714, 'learning_rate': 1.8421468034727706e-05, 'epoch': 0.79}
+{'eval_loss': 0.5117972493171692, 'eval_runtime': 9.9731, 'eval_samples_per_second': 242.955, 'eval_steps_per_second': 7.621, 'epoch': 1.0}
+{'loss': 0.3658, 'grad_norm': 0.46721771359443665, 'learning_rate': 1.7632202052091556e-05, 'epoch': 1.18}
+{'loss': 0.3411, 'grad_norm': 0.43775567412376404, 'learning_rate': 1.684293606945541e-05, 'epoch': 1.58}
+{'loss': 0.3247, 'grad_norm': 0.3677278459072113, 'learning_rate': 1.605367008681926e-05, 'epoch': 1.97}
+{'eval_loss': 0.4262908101081848, 'eval_runtime': 9.9967, 'eval_samples_per_second': 242.379, 'eval_steps_per_second': 7.602, 'epoch': 2.0}
+{'loss': 0.3037, 'grad_norm': 0.36920997500419617, 'learning_rate': 1.526440410418311e-05, 'epoch': 2.37}
+{'loss': 0.2968, 'grad_norm': 0.38491836190223694, 'learning_rate': 1.4475138121546963e-05, 'epoch': 2.76}
+{'eval_loss': 0.3836633861064911, 'eval_runtime': 9.9924, 'eval_samples_per_second': 242.485, 'eval_steps_per_second': 7.606, 'epoch': 3.0}
+{'loss': 0.2795, 'grad_norm': 0.4600418508052826, 'learning_rate': 1.3685872138910814e-05, 'epoch': 3.16}
+{'loss': 0.2734, 'grad_norm': 0.3679504990577698, 'learning_rate': 1.2896606156274664e-05, 'epoch': 3.55}
+{'loss': 0.266, 'grad_norm': 0.42059534788131714, 'learning_rate': 1.2107340173638518e-05, 'epoch': 3.95}
+{'eval_loss': 0.35603561997413635, 'eval_runtime': 9.9876, 'eval_samples_per_second': 242.601, 'eval_steps_per_second': 7.609, 'epoch': 4.0}
+{'loss': 0.2559, 'grad_norm': 0.3715471923351288, 'learning_rate': 1.1318074191002368e-05, 'epoch': 4.34}
+{'loss': 0.2535, 'grad_norm': 0.46702370047569275, 'learning_rate': 1.052880820836622e-05, 'epoch': 4.74}
+{'eval_loss': 0.3390951454639435, 'eval_runtime': 19.1158, 'eval_samples_per_second': 126.754, 'eval_steps_per_second': 3.976, 'epoch': 5.0}
+{'loss': 0.2469, 'grad_norm': 0.3553234338760376, 'learning_rate': 9.739542225730073e-06, 'epoch': 5.13}
+{'loss': 0.2407, 'grad_norm': 0.37664100527763367, 'learning_rate': 8.950276243093923e-06, 'epoch': 5.52}
+{'loss': 0.2398, 'grad_norm': 0.5136788487434387, 'learning_rate': 8.161010260457775e-06, 'epoch': 5.92}
+{'eval_loss': 0.32683253288269043, 'eval_runtime': 9.9994, 'eval_samples_per_second': 242.315, 'eval_steps_per_second': 7.6, 'epoch': 6.0}
+{'loss': 0.2332, 'grad_norm': 0.3880472779273987, 'learning_rate': 7.371744277821627e-06, 'epoch': 6.31}
+{'loss': 0.2307, 'grad_norm': 0.3933500647544861, 'learning_rate': 6.582478295185478e-06, 'epoch': 6.71}
+{'eval_loss': 0.31977424025535583, 'eval_runtime': 9.984, 'eval_samples_per_second': 242.688, 'eval_steps_per_second': 7.612, 'epoch': 7.0}
+{'loss': 0.2297, 'grad_norm': 0.35029444098472595, 'learning_rate': 5.79321231254933e-06, 'epoch': 7.1}
+{'loss': 0.2251, 'grad_norm': 0.3542476296424866, 'learning_rate': 5.003946329913181e-06, 'epoch': 7.5}
+{'loss': 0.2242, 'grad_norm': 0.3977482318878174, 'learning_rate': 4.214680347277033e-06, 'epoch': 7.89}
+{'eval_loss': 0.31433477997779846, 'eval_runtime': 9.9735, 'eval_samples_per_second': 242.945, 'eval_steps_per_second': 7.62, 'epoch': 8.0}
+{'loss': 0.2217, 'grad_norm': 0.33777913451194763, 'learning_rate': 3.4254143646408845e-06, 'epoch': 8.29}
+{'loss': 0.2231, 'grad_norm': 0.3311598002910614, 'learning_rate': 2.6361483820047358e-06, 'epoch': 8.68}
+{'eval_loss': 0.3115937113761902, 'eval_runtime': 9.9701, 'eval_samples_per_second': 243.026, 'eval_steps_per_second': 7.623, 'epoch': 9.0}
+{'loss': 0.2182, 'grad_norm': 0.3558158278465271, 'learning_rate': 1.8468823993685875e-06, 'epoch': 9.08}
+{'loss': 0.2165, 'grad_norm': 0.41962093114852905, 'learning_rate': 1.0576164167324388e-06, 'epoch': 9.47}
+{'loss': 0.2182, 'grad_norm': 0.39524319767951965, 'learning_rate': 2.6835043409629047e-07, 'epoch': 9.87}
+{'eval_loss': 0.3105132579803467, 'eval_runtime': 9.9741, 'eval_samples_per_second': 242.93, 'eval_steps_per_second': 7.62, 'epoch': 10.0}
+{'train_runtime': 5983.3669, 'train_samples_per_second': 67.721, 'train_steps_per_second': 2.118, 'train_loss': 0.27890920300321875, 'epoch': 10.0}
+[['Ĭnh achăng ih, mălei ưh kơ gơh pơm kiơ hloh dơ̆ng.\n'], ['Ih đei lơ trŏ kơ jing bơngai kơtang thoi mă bơngai bu ayơ.\n']]
+['Tôi sẽ làm cô vui, nhưng không thể làm gì hơn được nữa.', 'Anh có quyền cư xử như một người đàn ông tầm thường.']
+BLEU:  3.72
+CHRF: 16.05
+TER: 75.48
+Prediction 1: Tôi sẽ làm cô vui, nhưng không thể làm gì hơn được nữa.
+Reference 1: Ĭnh achăng ih, mălei ưh kơ gơh pơm kiơ hloh dơ̆ng.
+
+Prediction 2: Anh có quyền cư xử như một người đàn ông tầm thường.
+Reference 2: Ih đei lơ trŏ kơ jing bơngai kơtang thoi mă bơngai bu ayơ.
+
+Prediction 3: Không, cho tôi một ly xa.
+Reference 3: Ưh. Lê̆ ĭnh adrô̆.
+
+Prediction 4: Tôi ở đây để giúp!
+Reference 4: Ĭnh tơâu wă tơgŭm!
+
+Prediction 5: Mày chỉ làm được vậy thôi.
+Reference 5: Dôm tơdrong ih wă pơm jơ̆ chă-'nôm.#Dôm tơdrong ih wă pơm jơ̆ chă-bơyơ̆ng.#Dôm tơdrong ih wă pơm jơ̆ chă-hơyô.
+
+Prediction 6: Và những hình thức này giúp ích cho Activis kid ở Tunisia và Ai Cập trong quá khứ của họ.
+Reference 6: Păng dôm atur âu jơ̆ sĭt đei yuơ tơpă kơ khul bơ̆jang tơ Tunisia păng Egypt pơyan ninơng hlôi âu păng hloh 'biơ̆ dơ̆ng.
+
+Prediction 7: Anh ta là một đồng tiền, và anh ta là một đồng nghiệp của tôi, và anh ta là một đồng nghiệp của tôi, và anh ta là một đồng nghiệp của tôi, và anh ta là một đồng nghiệp của tôi.
+Reference 7: Sư jơ̆ mĭnh 'nu bơngai bơ̆pơm, păng Charlie bơbĕng dêh gah tơdrong tơplih hơyuh yơm jơ̆p bŏlteh.
+
+Prediction 8: Mụ ta làm hỏng con gái tôi.
+Reference 8: Hăp hlôi iŏk kon drŏkăn 'lơ̆p ĭnh.
+
+Prediction 9: Không, làm ơn, đó không phải quyền tự do của tôi.
+Reference 9: Ưh, 'noh jơ̆ ưh kơ sĭ tơdrong rơngei ĭnh mă ĭnh chơchă ôh.
+
+Prediction 10: Rốt cuộc rồi, tôi là ai?
+Reference 10: Tuch luch, ĭnh jơ̆ bu?
+
+Prediction 11: - Tôi biết, Megan.
+Reference 11: Ĭnh băt, Megan.
+
+Prediction 12: Lấy tất cả vũ khí và ammo mà bạn có thể.
+Reference 12: Iŏk đĭ dôm phao kơtuang păng 'brơ̆m ih gơh iŏk.
+
+Prediction 13: Ông chủ của tôi sẽ vượt qua thôi.
+Reference 13: Kon drŏkăn ĭnh gô kĕ hlôi tơdrong noh.
+
+Prediction 14: - Chancellor Angela Merkel, đang tung tin tức kết hợp với Tổng thống Putin.
+Reference 14: Kơdră tehđak Angela Merkel, hơdai hăm 'Bok pơgơ̆r Putin hơnang lơ̆m tơjrơ̆m roipơdah.
+
+Prediction 15: Và Hosain Rać, CEO của Aliph Jawbone, bạn biết đấy, thực sự hiểu rằng bạn cần một sự bổ sung.
+Reference 15: Păng Hosain Rahman, Tơ'ngla wei hwơ̆r Aliph Jawbone, ih băt, hlôh mă tơpă noh ih kăl mĭnh pơkăp pha.
+
+Prediction 16: Nhân chứng Giê-hô-va bổ sung các phiên toà của Nhân Chứng Giê-hô-va vào trại giam để thúc ép cơ quan nội tạng hoá.
+Reference 16: Nơ̆r athei anih sektơlang pơdŭ iŏk mŭk tơmam tơrô̆ pơjing gah Bơngai Răroi Jehovah yuơ pơthim ming tơdrong pơ'brơh truh tơ tơdrong jĭ rơka.
+
+Prediction 17: Anh đã tìm thấy hắn.
+Reference 17: Ih kah chă 'bôh sư bơih.
+
+Prediction 18: Bởi vì không có tumor để nhấn nút, không có gì để các antibodies để can dự vào vụ này.
+Reference 18: Mưh ưh kơ đei tơpu jĭ ayơ pơjĭ, leijơ̆ lu bơwei akâu ưh kơ đei hơwơ̆l kiơ ôh.
+
+Prediction 19: Được rồi, chúng ta sẽ làm cho đến khi chuyện này kết thúc.
+Reference 19: Huay ôh, lei, bơ̆n oei tơ âu truh kơ tơdrong âu keh đang.
+
+Prediction 20: Tôi sẽ đi gặp ông ngoại.
+Reference 20: Ĭnh gô năm hơlen lăng 'Bok.
+
+
+
+
+

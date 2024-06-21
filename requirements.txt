@@ -1,0 +1,7 @@
+torch
+transformers
+tqdm
+sentencepiece
+sacremoses
+datasets
+sacrebleu
